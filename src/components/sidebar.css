@@ -1,0 +1,145 @@
+.containerSidebar {
+    flex: 2.5;
+    align-items: center;
+    margin-left: -15px;
+    margin-top: 10px;
+    margin-right: 15px;
+    
+    
+}
+
+.titleDiv {
+    position: relative;
+    margin-left: 75px;
+}
+.techIcon {
+    width: 35px;
+    height: 50px;
+    color: rgba(0, 0, 255, 0.961);
+    position: relative;
+    
+   
+}
+
+.techTitle {
+    font-size: 25px;
+    position: absolute;
+    bottom: 16px;
+    margin-left: -20.5px;
+    overflow-wrap: normal;
+    color: rgba(255, 4, 171, 0.96);
+    font-weight: 800;
+}
+
+.sideWrapper1 {
+    margin-top: 100px;
+    margin-left: 50px;
+    padding-bottom: 5px;
+}
+
+
+.courseIcon {
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
+.spanCourse {
+    font-size: 22px;
+    position: relative;
+    top: -3px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.spanCourse {
+    --c: #1095c1; 
+    
+    color: #0000;
+    background: 
+      linear-gradient(90deg,#fff 50%,var(--c) 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) 100% no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+  }
+  .spanCourse:hover {
+    --_p: 100%
+  }
+
+
+.sideWrapper{
+    font-size: 20px;
+    position: relative;
+    top: -3px;
+    margin-left: 38px;
+    padding: 15px;
+   
+
+}
+.sideIcon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+.sideText {
+    position: relative;
+    margin-left: 8px;
+    cursor: pointer;
+    top: -2px;
+
+}
+.sideText {
+    --c: #1095c1; /* the color */
+    
+    color: #0000;
+    background: 
+      linear-gradient(90deg,#fff 50%,var(--c) 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) 100% no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+  }
+  .sideText:hover {
+    --_p: 100%
+  }
+  
+
+.sideImg {
+    width: 85px;
+    height: 80px;
+    margin-left: 75px;
+}
+
+.logoutIcon {
+     padding-top: 100px;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    margin-left: 50px;
+}
+.logoutText {
+    position: relative;
+ top: -3px;
+ font-size: 15px;
+ border: none;
+ outline: none;
+ cursor: pointer;
+}
+
+.sideIconBadge {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    bottom: 22.5px;
+    left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+   
+}
+

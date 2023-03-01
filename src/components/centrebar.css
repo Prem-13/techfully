@@ -1,0 +1,332 @@
+.centreContainer {
+   flex: 6;
+   margin-left: 8px;
+   margin-bottom: -80px;
+   border-radius: 2px;
+   height: 590px;
+   padding: 0px;
+   margin-right: 32px;
+}
+
+.centreBanner {
+    display: flex;
+    align-items: center;
+}
+
+.profileImg {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50PX;
+    margin-bottom: 190px;
+    position: relative;
+    padding: 5px;
+}
+
+.profileText {
+    font-size: 18px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+.profileText2 {
+    font-size: 9px;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 30px;
+    color: gray;
+}
+
+.searchBar {
+    display: flex;
+    position: absolute;
+    margin-left: 330px;
+    margin-top: -240px;
+    width: 280px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 23px;
+    align-items: center;
+    -webkit-box-shadow: -3px 6px 11px -2px rgba(0,0,0,0.45); 
+box-shadow: -3px 6px 11px -2px rgba(0,0,0,0.45);
+
+}
+
+
+.searchText {
+    position: relative;
+    margin-left: 5px;
+    width: 260px;
+    border-radius: 1px light gray;
+    cursor: pointer;
+    width: 250px;
+    height: 10px;
+    border: none;
+    
+}
+.searchIcon {
+    
+    top: -45px;
+    margin-right: -50px;
+    width: 15px;
+    height: 15px;
+}
+.javaImg {
+    width: 20px;
+    height: 20px;
+}
+
+.playImg {
+    width: 20px;
+    height: 20px;
+}
+
+.headingText {
+    color: rgba(11, 186, 229, 0.714);
+    position: relative;
+    top: -150px;
+    font-size: 25px;
+    font-weight: 800;
+    cursor: pointer;
+    margin-left: -50px;
+}
+
+.paraText {
+    position: relative;
+    top: -155px;
+    font-size: 13px;
+    font-weight: 800;
+    cursor: pointer;
+    margin-left: 500px;
+    font-size: 14px;
+
+}
+
+.navBar {
+    font-size: 15px;
+    padding: 5px;
+    position: relative;
+    top: -140px;
+    margin-left: 8px;
+    
+}
+.alltext {
+    font-weight: 600;
+   
+    
+}
+
+.currenttext,.pendingtext,.completedtext {
+    margin-left: 8px;
+    color: gray;
+}
+
+.studyTable {
+    border: 0.5px solid gray;
+    position: relative;
+    top: -130px;
+    height: 110px;
+    width: 637px;     
+}
+.imgDiv1 {
+    background-color: blueviolet;
+    width: 165px;
+    height: 110px; 
+} 
+.javaImg {
+    width: 85px;
+    height: 45px;
+    margin-top: 30px;
+    margin-left: 35px;
+    color: whitesmoke;
+    
+}
+.date {
+    display: flex;
+    position: relative;
+    bottom: 77px;
+    margin-left: 205px;
+    font-size: 9px;
+    color: gray;
+}
+
+.javaText {
+    display: flex;
+    position: relative;
+    bottom: 70px;
+    margin-left: 210px;
+    font-size: 22px;
+    font-weight: 750;
+       
+}
+.divPlay {
+    background-color: blueviolet;;
+    width: 45px;
+    height: 48px;
+    position: relative;
+    bottom: 145px;
+    margin-left: 570px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.spanResume {
+    font-size: 11px;
+    margin-left: 5px;
+    color: white;
+   
+    
+}
+
+.playImg {
+    margin-left: 13px;
+    margin-top: 3px;
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+
+.studyTable2 {
+    width: 640px;
+    background-color: black;
+    margin-top: -120px;
+    position: absolute;
+    height: 100px;
+    
+}
+
+.studyText {
+    color: rgb(123, 12, 226);
+    font-size: 20px;
+    margin-left: 13px;
+    position: relative;
+    top: 7px;
+    
+}
+.studyText1 {
+    color: rgb(128, 8, 241);
+    font-size: 20px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -155px;
+    
+}
+.textFind {
+  position: relative;
+  font-size: 14px;
+  top: 29px;
+  margin-left: 20px;
+  color: white;
+}
+
+.studyTable3 {
+    
+    padding: 10px; 
+    width: 620px;
+    margin-top: -15px;
+    position: absolute;
+    height: 81px;
+    border: 1px solid gray
+}
+
+.fluxImg {
+    width: 55px;
+    height: 65px;
+    margin-top: 2px;
+    
+   
+}
+.imgDiv {
+ display: flex;
+ position: relative;
+ border: 1px solid orange;
+ width: 160px;
+ height: 100px;
+ align-items: center;
+ justify-content: center;
+ background-color: rgb(255, 191, 0);
+ top: -10px;
+ margin-left: -10px;
+}
+.date2 {
+    display: flex;
+    position: relative;
+    margin-left: 190px;
+    margin-top: -100px;
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+
+.fluxText {
+    display: flex;
+    position: relative;
+    margin-left: 195px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 3px;
+}
+
+.studyTable4 {
+    display: flex;
+    position: absolute;
+    margin-top: 92px;
+    border: 1px solid gray;
+    width: 640px;
+    height: 105px;
+    font-size: 5px;
+
+}
+
+.socialImg {
+    width: 55px;
+    height: 65px;
+    margin-top: 2px;
+}
+.imgDiv2 {
+    display: flex;
+ position: relative;
+  width: 162px;
+ height: 104px;
+ align-items: center;
+ justify-content: center;
+ background-color: rgb(255, 145, 2);
+ 
+
+}
+
+.date3 {
+    margin-left: 200px;
+    position: relative;
+    top: -105px;
+    font-size: 10px;
+    color: grey;
+}
+
+.fluxText1 {
+    font-size: 21px;
+    position: relative;
+    top: -70px;
+    margin-left: -92px;
+    font-weight: 800;
+    padding: 2px;
+
+}
+.fluxText2 {
+    font-size: 21px;
+    position: relative;
+    top: -45px;
+    margin-left: -156px;
+    font-weight: 800;
+    padding: 2px;
+
+}
+
+.cornerdiv {
+    display: flex;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin-left: 608.5px;
+    margin-top: 90.8px;
+}

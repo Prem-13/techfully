@@ -1,0 +1,22 @@
+.wrapperApp {
+    display: flex;
+    align-items: center;
+    border: 2px solid gray;
+    height: 710px;
+    padding: 10px;
+}
+
+.light {
+    --background-color: #ffffff;
+    --text-color: #000000;
+  }
+  
+  .dark {
+    --background-color: #000000;
+    --text-color: #ffffff;
+  }
+  
+  .wrapperApp {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
